@@ -44,7 +44,7 @@ const Product = ()=> {
           <h3 className={styles.price}>Precio: ${product.price}</h3>
           <br />
           
-          <Link to={`/product/${product.id}`} state={{product}}><button>Detalles del Producto...</button></Link>
+          <Link to={`/curso_react/product/${product.id}`} state={{product}}><button>Detalles del Producto...</button></Link>
           <br />
           <button onClick={() => addToCart(product)}>Agregar al Carrito</button>
         </li>

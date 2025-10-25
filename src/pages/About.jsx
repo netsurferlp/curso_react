@@ -17,7 +17,7 @@ const About = () => {
                             Soy Curioso porque siempre estoy aprendiendo nuevas cosas, investigo, trato de estar en lo ultimo de la tecnología y tendencias.
                             Soy Incansable, no me doy por vencido ante los problemas, analizo y busco la mejor solución. 
                         </p>
-        <Link to="/"><button>Volver al Inicio</button></Link>
+        <Link to="/curso_react/"><button>Volver al Inicio</button></Link>
 
     </div>
     </>

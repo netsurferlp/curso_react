@@ -12,7 +12,7 @@ if (!product) {
     return (
       <div>
         <p>No se  ha podido cargar el producto, intente nuevamente!</p>
-        <Link to="/product">
+        <Link to="/curso_react/product">
           <button>Volver al listado de Productos</button>
         </Link>
       </div>
@@ -29,7 +29,7 @@ if (!product) {
             <img src={product.avatar} alt={product.name} width="30%" />
             <p><strong>Descripción: </strong>{product.description}</p>
             <p className={styles.price} >Precio: ${product.price}</p>
-            <Link to={`/product`}><button>Volver al Listado</button></Link>
+            <Link to={`/curso_react/product`}><button>Volver al Listado</button></Link>
         </li>
         
         

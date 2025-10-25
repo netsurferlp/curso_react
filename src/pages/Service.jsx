@@ -21,7 +21,7 @@ const Service = ()=> {
             <li className={styles.item}>Despliegue y Mantenimiento</li>
             <p className={styles.txt}>Implementación en el entorno de producción - Mantenimiento Correctivo y Evolutivo</p>
         </ul> 
-        <Link to="/"><button>Volver al Inicio</button></Link>
+        <Link to="/curso_react/"><button>Volver al Inicio</button></Link>
 
     </div>
   )

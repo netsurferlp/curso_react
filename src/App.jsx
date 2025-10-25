@@ -13,7 +13,7 @@ const App =() => {
   return (
     <>
       <Header/>
-      <Main/>
+      <Main />
       <Footer />
     </>
   )
