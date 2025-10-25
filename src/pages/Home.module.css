@@ -1,0 +1,18 @@
+.portada 
+{   
+     text-align: center;
+     margin-top: 20px;
+     padding:10%;
+     background-image: url(https://netsurferlp.ar/cv/assets/img/portada%20pagina.png);
+     background-position: center;
+     background-size: contain;
+     background-repeat: no-repeat;
+     margin-bottom: 20px;
+}
+
+.txtPortada {
+ border-radius: 10px;
+font-size: 80px;
+ color: #2B3B82;
+padding-top: 10px;
+}

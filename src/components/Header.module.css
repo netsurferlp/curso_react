@@ -1,0 +1,16 @@
+.header{
+     position:sticky;
+     top:0;
+     z-index: 1000;
+     display: block;
+     align-items: center;
+     justify-content: space-between; 
+     background-Color: #4c63afff;
+     padding: 10px;
+     text-Align: center;
+     color: white;
+ 
+
+
+
+}

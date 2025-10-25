@@ -1,0 +1,12 @@
+.footer {
+  background-color:rgb(43, 59, 131);
+  padding: 1rem 2rem;
+  box-shadow: 0px 0px 2px 1px black;
+  
+     margin-top: 20px ;
+     display: block;
+     align-items: center;
+     justify-content: space-between; 
+    
+  
+}

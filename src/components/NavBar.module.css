@@ -1,0 +1,37 @@
+/* ===== NAVBAR ===== */
+.nav {
+  background-color:rgb(43, 59, 131);
+  padding: 1rem 2rem;
+  box-shadow: 0px 0px 2px 1px black;
+  
+
+     display: block;
+     align-items: center;
+     justify-content: space-between; 
+    
+  
+}
+
+.lista {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+.item {
+  display: inline-block;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+  color: white;
+}

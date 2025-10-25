@@ -11,23 +11,20 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  border:red 1px solid;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
+
 
 body {
-  margin: 0;
-  display: flex;
+  
+   margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+  /*display: flex;*/
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+ /* min-width: 320px;*/
+ /* min-height: 100vh;*/
 }
 
 h1 {
@@ -54,15 +51,4 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
+
