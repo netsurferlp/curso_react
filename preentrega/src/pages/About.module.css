@@ -1,0 +1,25 @@
+.nosotros {   
+     text-align: center;
+     margin-top: 5px;
+     padding:10px;
+
+}
+
+.txtnosotros {
+ border-radius: 10px;
+color:white;
+ font-size: 18px;
+padding-top: 10px;
+}
+
+.txtsobreMi {
+  font-weight: bold;
+  color:white;
+}
+.fotoPerfil {
+display: block;
+margin-Left: auto;
+ margin-Right: auto;
+  margin-Top: 20px;
+   border-Radius: 50%;
+} 
